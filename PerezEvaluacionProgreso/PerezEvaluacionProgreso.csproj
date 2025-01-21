@@ -67,9 +67,6 @@
 	  <MauiXaml Update="Views\BuscarPeliculaJPView.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Views\ListaPeliculaJPView.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
 	</ItemGroup>
 
 </Project>
