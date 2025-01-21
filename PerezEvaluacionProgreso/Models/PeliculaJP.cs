@@ -8,10 +8,10 @@ namespace PerezEvaluacionProgreso.Models
 {
     public class PeliculaJP 
     {
-        public string name {  get; set; }
-        public string genre { get; set; }
+        public string Nombre {  get; set; }
+        public string Genero { get; set; }
         public string Director { get; set; }
-        public string año { get; set; }
+        public string Year { get; set; }
         public string PosterUrl { get; set; }
 
     }

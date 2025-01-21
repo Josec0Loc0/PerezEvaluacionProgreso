@@ -7,9 +7,16 @@
     Shell.FlyoutBehavior="Disabled"
     Title="PerezEvaluacionProgreso">
 
-    <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+    <TabBar>
+        <Tab Title="Buscar Película" Icon="search_icon.png">
+            <ShellContent ContentTemplate="{DataTemplate views:BuscarPeliculaJPPage}" />
+        </Tab>
+
+        <Tab Title="Listado Peliculas" Icon="other_icon.png">
+            <ShellContent ContentTemplate="{DataTemplate views:ListadoPeliculasJPPage}" />
+        </Tab>
+    </TabBar>
+    
+    
 
 </Shell>
